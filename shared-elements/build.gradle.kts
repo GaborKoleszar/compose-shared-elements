@@ -36,6 +36,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
     }
+    namespace = "com.mxalbert.sharedelements"
 }
 
 dependencies {
